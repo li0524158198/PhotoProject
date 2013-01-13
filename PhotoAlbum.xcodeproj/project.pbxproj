@@ -17,7 +17,11 @@
 		0A667D3816A2770B00D32065 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A667D3716A2770B00D32065 /* Default@2x.png */; };
 		0A667D3A16A2770B00D32065 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A667D3916A2770B00D32065 /* Default-568h@2x.png */; };
 		0A667D3D16A2770B00D32065 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A667D3C16A2770B00D32065 /* BIDViewController.m */; };
-		0A667D4016A2770B00D32065 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A667D3E16A2770B00D32065 /* BIDViewController.xib */; };
+		0A667D4916A27F1000D32065 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A667D4616A27F1000D32065 /* Default-568h@2x.png */; };
+		0A667D4A16A27F1000D32065 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A667D4716A27F1000D32065 /* Default.png */; };
+		0A667D4B16A27F1000D32065 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A667D4816A27F1000D32065 /* Default@2x.png */; };
+		0A667D4D16A27F2200D32065 /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A667D4C16A27F2200D32065 /* monkey.png */; };
+		0A667D5816A284C600D32065 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A667D5716A284C600D32065 /* BIDViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +40,11 @@
 		0A667D3916A2770B00D32065 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0A667D3B16A2770B00D32065 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		0A667D3C16A2770B00D32065 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
-		0A667D3F16A2770B00D32065 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		0A667D4616A27F1000D32065 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0A667D4716A27F1000D32065 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0A667D4816A27F1000D32065 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0A667D4C16A27F2200D32065 /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
+		0A667D5716A284C600D32065 /* BIDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		0A667D1416A2770B00D32065 = {
 			isa = PBXGroup;
 			children = (
+				0A667D4C16A27F2200D32065 /* monkey.png */,
+				0A667D4616A27F1000D32065 /* Default-568h@2x.png */,
+				0A667D4716A27F1000D32065 /* Default.png */,
+				0A667D4816A27F1000D32065 /* Default@2x.png */,
 				0A667D2916A2770B00D32065 /* PhotoAlbum */,
 				0A667D2216A2770B00D32065 /* Frameworks */,
 				0A667D2016A2770B00D32065 /* Products */,
@@ -87,7 +99,7 @@
 				0A667D3316A2770B00D32065 /* BIDAppDelegate.m */,
 				0A667D3B16A2770B00D32065 /* BIDViewController.h */,
 				0A667D3C16A2770B00D32065 /* BIDViewController.m */,
-				0A667D3E16A2770B00D32065 /* BIDViewController.xib */,
+				0A667D5716A284C600D32065 /* BIDViewController.xib */,
 				0A667D2A16A2770B00D32065 /* Supporting Files */,
 			);
 			path = PhotoAlbum;
@@ -163,7 +175,11 @@
 				0A667D3616A2770B00D32065 /* Default.png in Resources */,
 				0A667D3816A2770B00D32065 /* Default@2x.png in Resources */,
 				0A667D3A16A2770B00D32065 /* Default-568h@2x.png in Resources */,
-				0A667D4016A2770B00D32065 /* BIDViewController.xib in Resources */,
+				0A667D4916A27F1000D32065 /* Default-568h@2x.png in Resources */,
+				0A667D4A16A27F1000D32065 /* Default.png in Resources */,
+				0A667D4B16A27F1000D32065 /* Default@2x.png in Resources */,
+				0A667D4D16A27F2200D32065 /* monkey.png in Resources */,
+				0A667D5816A284C600D32065 /* BIDViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +205,6 @@
 				0A667D2D16A2770B00D32065 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0A667D3E16A2770B00D32065 /* BIDViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A667D3F16A2770B00D32065 /* en */,
-			);
-			name = BIDViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -255,7 +263,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoAlbum/PhotoAlbum-Prefix.pch";
 				INFOPLIST_FILE = "PhotoAlbum/PhotoAlbum-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -266,7 +276,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoAlbum/PhotoAlbum-Prefix.pch";
 				INFOPLIST_FILE = "PhotoAlbum/PhotoAlbum-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -290,6 +302,7 @@
 				0A667D4516A2770B00D32065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

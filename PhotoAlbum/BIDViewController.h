@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BIDViewController : UIViewController
+@interface BIDViewController : UIViewController<UIGestureRecognizerDelegate>
+@property(nonatomic,retain) UIImageView *monkeyImageView;
+@property(nonatomic,retain) UIPinchGestureRecognizer * pinchGesture;
+@property(nonatomic,retain) UIPanGestureRecognizer * panGesture;
+@property(nonatomic,retain) UIRotationGestureRecognizer *rotationGesture;
+@property(nonatomic,retain) UITapGestureRecognizer *tapGetesture;
+
 
 @end
